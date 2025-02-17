@@ -1,7 +1,7 @@
 // Konfigurasi Blynk
-#define BLYNK_TEMPLATE_ID "TMPL6j-zkDURO"
-#define BLYNK_TEMPLATE_NAME "suhusensor"
-#define BLYNK_AUTH_TOKEN "Vg3-qzYO4b0KRE1c1aj8HAVuXP6QSNZi"
+#define BLYNK_TEMPLATE_ID "YOUR_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>
@@ -14,12 +14,12 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // Konfigurasi WiFi
-#define WIFI_SSID "Undiksha FTK"
-#define WIFI_PASSWORD "JarEnterprise24#"
+#define WIFI_SSID "YOUR_SSID"
+#define WIFI_PASSWORD "YOUR_PASSWORD"
 
 // Konfigurasi Firebase
-#define FIREBASE_API_KEY "AIzaSyC4XPiGuvw8sYC--Q4WmUgb3Shbivp0bm8"
-#define FIREBASE_URL "https://suhubaru-9a2d7-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define FIREBASE_API_KEY "YOUR_API_KEY"
+#define FIREBASE_URL "YOUR_FIREBASE_URL"
 
 // Objek Firebase
 FirebaseData firebaseData;
